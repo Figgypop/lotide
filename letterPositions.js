@@ -17,6 +17,31 @@ const eqArrays = function (arr1, arr2) {
   return true;
 }
 
-assertArrayEqual();
+
+const letterPositions = function (sentence) {
+  const result = {};
+  for (let i in sentence) {
+    letter = sentence[i]
+    if (letter === " ") {
+      continue;
+    }
 
 
+    if (result[letter] == undefined) {
+      result[letter] = []
+    }
+
+
+    result[letter].push(Number(i));
+
+
+  }
+
+
+  return result;
+}
+const something = letterPositions("hello")
+
+console.log(something);
+
+assertArrayEqual(letterPositions("hello")["h"], [0]);
