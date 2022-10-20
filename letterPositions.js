@@ -44,4 +44,4 @@ const something = letterPositions("hello")
 
 console.log(something);
 
-assertArrayEqual(letterPositions("hello")["h"], [0]);
+//assertArrayEqual(letterPositions("hello")["h"], [0]);

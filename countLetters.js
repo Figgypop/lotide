@@ -20,7 +20,7 @@ const countLetters = function (sentence) {
     }
 
     //console.log(letter);  --> test code
-    if (result[letter] == undefined) {
+    if (result[letter]  == undefined) {
       result[letter] = 0
     }
 
@@ -32,4 +32,6 @@ const countLetters = function (sentence) {
   return result;
 }
 
+
+//assertEqual()
 console.log(countLetters("doesnt matter"));
