@@ -9,9 +9,9 @@ const middle = require('./middle');
 // const maps = require('./maps');
 
 module.exports = {
-  head: head,
-  tail: tail,
-  middle: middle,
+  head,
+  tail,
+  middle
   // without: without,
   // letterPositions: letterPositions,
   // countLetters: countLetters,
