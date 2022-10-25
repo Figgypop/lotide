@@ -35,3 +35,5 @@ const countLetters = function (sentence) {
 
 //assertEqual()
 console.log(countLetters("doesnt matter"));
+
+module.exports = countLetters; 

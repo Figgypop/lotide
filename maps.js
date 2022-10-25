@@ -1,3 +1,5 @@
+const { maps } = require(".");
+
 const words = ["ground", "control", "to", "major", "tom"];
 
 const map = function (array, callback) {
@@ -11,3 +13,4 @@ const map = function (array, callback) {
 
 console.log(results);
 
+module.exports = maps;

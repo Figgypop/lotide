@@ -37,3 +37,5 @@ const without = function (source, itemsToRemove) {
 console.log(without([1, 2, 3], [1])); // => [2, 3]
 console.log(without(["1", "2", "3"], [1, 2, "3"])); // => ["1", "2"]
 console.log(without(["wassa", "hello", "suh"], ["wassa"]));
+
+module.exports = without; 

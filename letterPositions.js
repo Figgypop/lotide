@@ -45,3 +45,5 @@ const something = letterPositions("hello")
 console.log(something);
 
 //assertArrayEqual(letterPositions("hello")["h"], [0]);
+
+module.exports = letterPositions; 
