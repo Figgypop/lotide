@@ -8,7 +8,8 @@ const countOnly = require('./countOnly');
 const findKeysByValue = require('./findKeysByValue');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const findKeys = require('./findKeys');
-//const maps = require('./maps');
+const takeUntil = require('./takeUntil');
+const maps = require('./maps');
 
 module.exports = {
   head,
@@ -21,6 +22,7 @@ module.exports = {
   findKeysByValue,
   assertObjectsEqual,
   findKeys,
-  //maps
+  takeUntil,
+  maps
 };
 
